@@ -715,8 +715,8 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
   this.log_( "orig qualityLevel = " + qualityLevel );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
-    qualityLevel = protocol.getQualityLevel(streamIndex);
-    this.log_( "stream quality =  " + qualityLevel );
+    //qualityLevel = protocol.getQualityLevel(streamIndex);
+    //this.log_( "stream quality =  " + qualityLevel );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
     this.log_( "bitrates =  " + bitrates.toString() );
