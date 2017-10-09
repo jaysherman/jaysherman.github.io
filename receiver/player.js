@@ -711,39 +711,29 @@ sampleplayer.CastPlayer.prototype.resetMediaElement_ = function() {
  * @private
  */
 sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, qualityLevel) {
-  var throttledLevel = qualityLevel;
-  this.log_( "orig qualityLevel = " + throttledLevel );
   this.log_( "orig streamIndex = " + streamIndex );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
     this.log_( "stream duration =  " + protocol.getDuration() );
     this.log_( "stream count =  " + protocol.getStreamCount() );
-    this.log_( "ORIG stream quality =  " + protocol.getQualityLevel(streamIndex) );
+    this.log_( "stream quality =  " + protocol.getQualityLevel(streamIndex) );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
-    this.log_( "available bitrates =  " + bitrates.toString());
     var maxBitrate = 5000000; //5 megabits is highest allowable bitrate for casting
-    var targetBitrate = 0; //bitrate of target level -- changed by Jay Sherman on 8/6/17
-    var maxAllowedLevel = 0;
+    var throttleBitrate = 0;
+    var throttleIndex = 0;
     for(var i = 0; i < bitrates.length; i++){
       var bitrate = bitrates[i];
-      if(bitrate <= maxBitrate && bitrate >= targetBitrate){
-        targetBitrate = bitrate; //NOTE: layers may be OUT OF ORDER, so check all
-        maxAllowedLevel = i;
+      if(bitrate <= maxBitrate && bitrate >= throttleBitrate){
+        throttleBitrate = bitrate; //NOTE: layers may be OUT OF ORDER, so check all
+        throttleIndex = i;
       }
-
     }
-    
-    this.log_( "throttledLevel =  " + throttledLevel );
-    this.log_( "maxAllowedLevel =  " + maxAllowedLevel );
-    this.log_( "FINAL stream quality =  " + protocol.getQualityLevel(maxAllowedLevel) );
-    
-    throttledLevel = throttledLevel <= maxAllowedLevel ? throttledLevel : maxAllowedLevel;
-    this.log_( "final throttledLevel =  " + throttledLevel );
-    throttledLevel = maxAllowedLevel;
-    this.log_( "sending maxAllowedLevel =  " + throttledLevel );
+    this.log_( "throttled bitrate =  " + throttleBitrate)
+    this.log_( " final stream index = " +  throttleIndex);
+    streamIndex = throttleIndex
   }
-  return throttledLevel; 
+  return streamIndex; 
 };
 
 /**
