@@ -716,6 +716,8 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
   this.log_( "orig streamIndex = " + streamIndex );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
+    this.log_( "stream duration =  " + protocol.getDuration() );
+    this.log_( "stream count =  " + protocol.getStreamCount() );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
     this.log_( "available bitrates =  " + bitrates.toString());
@@ -729,12 +731,14 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
         maxAllowedLevel = i;
       }
     }
+
     this.log_( "throttledLevel =  " + throttledLevel );
     this.log_( "maxAllowedLevel =  " + maxAllowedLevel );
     
     throttledLevel = throttledLevel <= maxAllowedLevel ? throttledLevel : maxAllowedLevel;
     this.log_( "final throttledLevel =  " + throttledLevel );
     throttledLevel = maxAllowedLevel;
+    this.log_( "**quality level =  " + protocol.getQualityLevel(throttledLevel) );
     this.log_( "sending maxAllowedLevel =  " + throttledLevel );
   }
   return throttledLevel; 
