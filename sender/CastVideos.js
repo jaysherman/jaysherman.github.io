@@ -421,8 +421,8 @@ CastPlayer.prototype.setupRemotePlayer = function () {
     playerTarget.load = function (mediaIndex) {
         console.log('Loading...' + this.mediaContents[mediaIndex]['title']);
         var mediaInfo = new chrome.cast.media.MediaInfo(
-            this.mediaContents[mediaIndex]['sources'][0], 'video/mp4');
-
+            //this.mediaContents[mediaIndex]['sources'][0], 'video/mp4');
+            "http://10fad4b4a7894c10a47117386cbbce08.dlvr1.net/FunimationStoreFront/1552864/English/1552864_English_4fb70f36-4d5c-e711-8175-020165574d09.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cDovL2QxMzJmdW1pNmRpMXdhLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1MDc1OTQ4MjV9fX1dfQ__&Signature=muDlcYJQiT6vilPskDz3gttyBGM7viZGGi7dYUE7GeAwX9rHvdOx4NqOtGXDqZ22ksrfMRPVrUlhj42BqRQ7ciQFdbbZYpWHCprMD4G0Oets2iFgsEA1lrba-TuBHC9gopdmT4YSObqOMbg~2jMH0QmL3nQ~GZx~52ZSlHwvvmeTA1a3rbuE8E1VLu0OHCTT8wsw-yorMK6vYA4-iHSK5tpK2E~RpNneD3-kfZRy5DNvSNLHZ2K7tB4VKlXa1lnbMOvZQuWmBM2t6I~JBTiIEMdJ~KtL9YP7JQkLoVklvdBlvbF5uoWqUdszS3FsJtcsjq7COQ1-D445vUtfTSvkjA__&Key-Pair-Id=DLVR","application/x-mpegURL");
         mediaInfo.metadata = new chrome.cast.media.GenericMediaMetadata();
         mediaInfo.metadata.metadataType = chrome.cast.media.MetadataType.GENERIC;
         mediaInfo.metadata.title = this.mediaContents[mediaIndex]['title'];
