@@ -734,8 +734,8 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
     this.log_( " final stream index = " +  throttleIndex);
     // streamIndex = throttleIndex
   }
-  this.log_( " RETURNING stream index = " +  streamIndex);
-  return streamIndex; 
+  this.log_( " RETURNING qualityLevel = " +  qualityLevel);
+  return qualityLevel; 
 };
 
 /**
