@@ -724,7 +724,7 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
     var maxAllowedLevel = 0;
     for(var i = 0; i < bitrates.length; i++){
       var bitrate = bitrates[i];
-      if(bitrate <= maxBitrate && bitrate > targetBitrate){
+      if(bitrate <= maxBitrate && bitrate >= targetBitrate){
         targetBitrate = bitrate; //NOTE: layers may be OUT OF ORDER, so check all
         maxAllowedLevel = i;
       }
