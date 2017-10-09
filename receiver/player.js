@@ -733,10 +733,10 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
       }
 
     }
-    this.log_( "FINAL stream quality =  " + protocol.getQualityLevel(maxAllowedLevel) );
     
     this.log_( "throttledLevel =  " + throttledLevel );
     this.log_( "maxAllowedLevel =  " + maxAllowedLevel );
+    this.log_( "FINAL stream quality =  " + protocol.getQualityLevel(maxAllowedLevel) );
     
     throttledLevel = throttledLevel <= maxAllowedLevel ? throttledLevel : maxAllowedLevel;
     this.log_( "final throttledLevel =  " + throttledLevel );
