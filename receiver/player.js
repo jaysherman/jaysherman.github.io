@@ -713,10 +713,12 @@ sampleplayer.CastPlayer.prototype.resetMediaElement_ = function() {
 sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, qualityLevel) {
   var throttledLevel = qualityLevel;
   this.log_( "orig qualityLevel = " + throttledLevel );
+  this.log_( "orig streamIndex = " + streamIndex );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
+    this.log_( "available bitrates =  " + bitrates.toString());
     var maxBitrate = 5000000; //5 megabits is highest allowable bitrate for casting
     var targetBitrate = 0; //bitrate of target level -- changed by Jay Sherman on 8/6/17
     var maxAllowedLevel = 0;
@@ -727,6 +729,9 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
         maxAllowedLevel = i;
       }
     }
+    this.log_( "throttledLevel =  " + throttledLevel );
+    this.log_( "maxAllowedLevel =  " + maxAllowedLevel );
+    
     throttledLevel = throttledLevel <= maxAllowedLevel ? throttledLevel : maxAllowedLevel;
     this.log_( "final qualityLevel =  " + throttledLevel );
   }
