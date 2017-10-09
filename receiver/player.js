@@ -720,6 +720,9 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
     this.log_( "stream quality =  " + protocol.getQualityLevel(streamIndex) );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
+    this.log_( "bitrates =  " + bitrates.toString() );
+    var sortedBitrates = bitrates.sort().filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0})
+    this.log_( "sortedBitrates =  " + sortedBitrates.toString() );
     var maxBitrate = 5000000; //5 megabits is highest allowable bitrate for casting
     var throttleBitrate = 0;
     var throttleIndex = 0;
