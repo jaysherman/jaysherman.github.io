@@ -720,9 +720,10 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
     this.log_( "bitrates =  " + bitrates.toString() );
-    //find the correct bitrate based on unique soted array
-    var sortedBitrates = bitrates.slice();
-    sortedBitrates = sortedBitrates.sort().filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0})
+    //find the correct bitrate based sorted array
+    var sortedBitrates = bitrates.slice().sort((a,b) => a-b);
+    //remove duplicates
+    sortedBitrates = sortedBitrates.filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0});
     this.log_( "sortedBitrates =  " + sortedBitrates.toString() );
     var expectedBitrate = bitrates[qualityLevel >= 0 ? qualityLevel : 0];
     this.log_( "expectedBitrate =  " + expectedBitrate );
