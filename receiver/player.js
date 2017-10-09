@@ -712,6 +712,7 @@ sampleplayer.CastPlayer.prototype.resetMediaElement_ = function() {
  */
 sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, qualityLevel) {
   this.log_( "orig streamIndex = " + streamIndex );
+  this.log_( "orig qualityLevel = " + qualityLevel );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
     this.log_( "stream duration =  " + protocol.getDuration() );
@@ -731,8 +732,9 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
     }
     this.log_( "throttled bitrate =  " + throttleBitrate)
     this.log_( " final stream index = " +  throttleIndex);
-    streamIndex = throttleIndex
+    // streamIndex = throttleIndex
   }
+  this.log_( " RETURNING stream index = " +  streamIndex);
   return streamIndex; 
 };
 
