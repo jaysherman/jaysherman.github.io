@@ -715,12 +715,14 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
   this.log_( "orig qualityLevel = " + qualityLevel );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
-    this.log_( "stream quality =  " + protocol.getQualityLevel(streamIndex) );
+    qualityLevel = protocol.getQualityLevel(streamIndex);
+    this.log_( "stream quality =  " + qualityLevel );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
     this.log_( "bitrates =  " + bitrates.toString() );
     //find the correct bitrate based on unique soted array
-    var sortedBitrates = bitrates.sort().filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0})
+    var sortedBitrates = bitrates.slice();
+    sortedBitrates.sort().filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0})
     this.log_( "sortedBitrates =  " + sortedBitrates.toString() );
     var expectedBitrate = bitrates[qualityLevel >= 0 ? qualityLevel : 0];
     this.log_( "expectedBitrate =  " + expectedBitrate );
