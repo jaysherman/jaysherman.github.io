@@ -715,30 +715,37 @@ sampleplayer.CastPlayer.prototype.throttleQuality_ = function(streamIndex, quali
   this.log_( "orig qualityLevel = " + qualityLevel );
   var protocol = this.player_.getStreamingProtocol();
   if (protocol !== null){
-    this.log_( "stream duration =  " + protocol.getDuration() );
-    this.log_( "stream count =  " + protocol.getStreamCount() );
     this.log_( "stream quality =  " + protocol.getQualityLevel(streamIndex) );
     var streamInfo = protocol.getStreamInfo(streamIndex);
     var bitrates = streamInfo['bitrates'];
     this.log_( "bitrates =  " + bitrates.toString() );
+    //find the correct bitrate based on unique soted array
     var sortedBitrates = bitrates.sort().filter(function(el,i,a){if(i==a.indexOf(el))return 1;return 0})
     this.log_( "sortedBitrates =  " + sortedBitrates.toString() );
+    var expectedBitrate = bitrates[qualityLevel >= 0 ? qualityLevel : 0];
+    this.log_( "expectedBitrate =  " + expectedBitrate );
     var maxBitrate = 5000000; //5 megabits is highest allowable bitrate for casting
-    var throttleBitrate = 0;
-    var throttleIndex = 0;
-    for(var i = 0; i < bitrates.length; i++){
-      var bitrate = bitrates[i];
-      if(bitrate <= maxBitrate && bitrate >= throttleBitrate){
-        throttleBitrate = bitrate; //NOTE: layers may be OUT OF ORDER, so check all
-        throttleIndex = i;
+    if(expectedBitrate <= maxBitrate){
+      this.log_( " expected bitrate = " +  expectedBitrate);
+      streamIndex = bitrates.lastIndexOf(expectedBitrate);
+    }else{
+      var throttleBitrate = 0;
+      var throttleIndex = 0;
+      for(var i = sortedBitrates.length-1; i>=0; i--){
+        var bitrate = sortedBitrates[i];
+        if(bitrate <= maxBitrate){
+          throttleBitrate = bitrate;
+          break;
+        }
+      }
+      if(throttleBitrate > 0){
+        this.log_( "throttled bitrate =  " + throttleBitrate)
+        streamIndex = bitrates.lastIndexOf(throttleBitrate);
       }
     }
-    this.log_( "throttled bitrate =  " + throttleBitrate)
-    this.log_( " final stream index = " +  throttleIndex);
-    // streamIndex = throttleIndex
   }
-  this.log_( " RETURNING qualityLevel = " +  qualityLevel);
-  return qualityLevel; 
+  this.log_( " RETURNING streamIndex = " +  streamIndex);
+  return streamIndex; 
 };
 
 /**
