@@ -4,8 +4,8 @@ tv.freewheel.DemoPlayer = function() {
 	// Only one AdManager instance is needed for each player.
 	this.adManager = new tv.freewheel.SDK.AdManager();
 	// Please contact your FreeWheel solution engineer for the values for your network.
-	this.adManager.setNetwork(146140);
-	this.adManager.setServer("https://23adc.v.fwmrm.net")
+	this.adManager.setNetwork(96749);
+	this.adManager.setServer("http://demo.v.fwmrm.net/ad/g/1")
 	/* Ad ad context object should be created for each ad request and all ad playback related.
 	When a new video starts, the current ad context object should be destroyed and a new one should
 	be created to handle the next lifecycle.
@@ -37,8 +37,8 @@ tv.freewheel.DemoPlayer.prototype = {
 		this.currentAdContext.setProfile("global-js");
 
 		// Set the target.
-		this.currentAdContext.setVideoAsset("FUN-110951", 500);
-		this.currentAdContext.setSiteSection("funimation_website_us_shows");
+		this.currentAdContext.setVideoAsset("DemoVideoGroup.01", 500);
+		this.currentAdContext.setSiteSection("DemoSiteGroup.01");
 
 		// Optional if using custom key-value targeting: Add key-values in the ad request.
 		this.currentAdContext.addKeyValue("customTargetingKey","JSAMDemoPlayer");
