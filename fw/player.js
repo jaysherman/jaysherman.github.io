@@ -5,7 +5,7 @@ tv.freewheel.DemoPlayer = function() {
 	this.adManager = new tv.freewheel.SDK.AdManager();
 	// Please contact your FreeWheel solution engineer for the values for your network.
 	this.adManager.setNetwork(146140);
-	this.adManager.setServer("http://23adc.v.fwmrm.net")
+	this.adManager.setServer("https://fwlive.crackle.com")
 	/* Ad ad context object should be created for each ad request and all ad playback related.
 	When a new video starts, the current ad context object should be destroyed and a new one should
 	be created to handle the next lifecycle.
