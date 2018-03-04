@@ -37,8 +37,8 @@ tv.freewheel.DemoPlayer.prototype = {
 		this.currentAdContext.setProfile("Funimation_BrightCove_IOS");
 
 		// Set the target.
-		this.currentAdContext.setVideoAsset("2502778", 500);
-		this.currentAdContext.setSiteSection("funimation_iphone_ipod_us_shows");
+		this.currentAdContext.setVideoAsset("FUN-91480", 500);
+		this.currentAdContext.setSiteSection("funimation_ios_handheld_us_anonymoususer");
 
 		// Optional if using custom key-value targeting: Add key-values in the ad request.
 		this.currentAdContext.addKeyValue("customTargetingKey","JSAMDemoPlayer");
