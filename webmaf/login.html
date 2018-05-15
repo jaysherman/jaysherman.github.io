@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Untitled Document</title>
+</head>
+<body>
+
+	<form>
+		Email: <input type="text" name="email" placeholder="email"><br>
+		Password: <input type="password" name="password" placeholder="password"><br>
+	</form> 
+	<button onclick="postLogin()">Submit</button>
+
+	<script>
+		function postLogin() 
+		{
+			var http = new XMLHttpRequest();
+			var url = "https://prod-api-funimationnow.dadcdigital.com/api/auth/login/";
+			var x = document.forms[0];
+			var xstr = "";
+			var ta ="";
+			var tb ="";
+			var i;
+			for (i = 0; i < x.length; i++)
+			{
+				if (i==0){ta = x.elements[i].name+"="+ x.elements[i].value;
+			}else{
+				tb = tb+"&"+ x.elements[i].name +"=" + x.elements[i].value;
+			}
+		}
+
+		xstr = ta+tb;
+		http.open("POST", url, true);
+		http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+		http.onreadystatechange = function()
+		{
+			if(http.readyState == 4 && http.status == 200) {
+
+				var response = JSON.parse(this.responseText);
+				window.location.href = "WebMAF_web_application_sample.html?" + response.token;
+				
+			} 
+
+		}
+		http.send(xstr);
+
+	}
+</script>
+
+</body>
+</html>
