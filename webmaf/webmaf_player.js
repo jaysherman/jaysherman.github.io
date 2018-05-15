@@ -252,7 +252,7 @@ var videometrics_data_last_error;
 var videometrics_data_state;
 var videometrics_data_bitrate;
 function videometrics_update() {
-  videometrics_data_url="";
+  videometrics_data_url=videometrics.url.split('?')[0];
   videometrics_data_bandwith=videometrics.bandwith;
   videometrics_data_naturalWidth=videometrics.naturalWidth;
   videometrics_data_naturalHeight=videometrics.naturalHeight;
@@ -339,21 +339,9 @@ function handle_getPlaybackTime(data) {
 //{"command":"getSubtitleTracks","status":"ok","subtitleTracks":"", "currentSubtitleTrack":""}
 //{"command":"getAudioTracks","status":"ok","audioTracks":"und", "currentAudioTrack":"und"}
 
-var audio_lang_buttons=[
-  ["audiolang_1_txt","audiolang_1_but"],
-  ["audiolang_2_txt","audiolang_2_but"],
-  ["audiolang_3_txt","audiolang_3_but"],
-  ["audiolang_4_txt","audiolang_4_but"],
-  ["audiolang_5_txt","audiolang_5_but"],
-]
+var audio_lang_buttons=[]
 
-var subtitle_lang_buttons=[
-  ["subtitles_1_txt","subtitles_1_but"],
-  ["subtitles_2_txt","subtitles_2_but"],
-  ["subtitles_3_txt","subtitles_3_but"],
-  ["subtitles_4_txt","subtitles_4_but"],
-  ["subtitles_5_txt","subtitles_5_but"],
-]
+var subtitle_lang_buttons=[]
 
 var need_to_retest_languages=false;
 
