@@ -62,6 +62,7 @@ function loadSignedURL(video_id)
 			var response = JSON.parse(this.responseText);
 			var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
 			var m3u8 = filtered_json[0].src;
+			displayTTY("m3u8: " + m3u8);
 			video_API_load(m3u8,"","",8);
 		
 		} 
@@ -458,7 +459,7 @@ function reset_subtitles(){
 
 function accessfunction(json) {
 	if (json.indexOf('getPlaybackTime')==-1){
-		console.log(json);
+		displayTTY(json);
 	}
 	var add_to_tty=false;
 	displayTTY(json);
@@ -737,10 +738,10 @@ function play_next() {
 		var time_since_last_play_attempt = my_decisecond_timer - play_hammer_prevention_timer;
 		play_hammer_prevention_timer = my_decisecond_timer;
 		if (time_since_last_play_attempt < 7) {
-			console.log("play_hammer_prevention_timer prevented play_next");
+			displayTTY("play_hammer_prevention_timer prevented play_next");
 			return;
 		}
-		console.log("playnext");
+		displayTTY("playnext");
 		clearTTY();
 		current_time = -1;
 		total_time = -1;

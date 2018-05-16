@@ -7,8 +7,8 @@
 <body>
 
 	<form>
-		Email: <input type="text" name="email" placeholder="email"><br>
-		Password: <input type="password" name="password" placeholder="password"><br>
+		Email: <input type="text" name="email" value="roku_test01@sony.com" placeholder="email"><br>
+		Password: <input type="password" name="password" value="P@ssw0rd#321!" placeholder="password"><br>
 	</form> 
 	<button onclick="postLogin()">Submit</button>
 
@@ -40,7 +40,7 @@
 
 				var response = JSON.parse(this.responseText);
 				window.location.href = "WebMAF_web_application_sample.html?" + response.token;
-				
+
 			} 
 
 		}
