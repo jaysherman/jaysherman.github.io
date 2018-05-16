@@ -875,9 +875,10 @@ Commands=new Commands();
 
 buildVideoList();
 
+var my_decisecond_timer=0;
+	
 function initEverything()
 {
-	var my_decisecond_timer=0;
 	console.log("play_next()");
 	play_next();
 
