@@ -39,6 +39,7 @@ function buildVideoList()
 				{
 					videos.push(dbs_episode_videos[j].id);
 				}
+				console.log("initEverything()");
 				//play the first video
 				initEverything();
 			}
@@ -65,8 +66,13 @@ function loadSignedURL(video_id)
 			displayTTY("m3u8: " + m3u8);
 			video_API_load(m3u8,"","",8);
 		
-		} 
+		}else
+		{
+			console.log("error: " + this.responseText);
+		}
 	}
+	console.log("http.send("+url+")");
+				
 	http.send(null);
 }
 
@@ -622,7 +628,7 @@ function set_elem_innerhtml_and_opacity(id,innerhtml,opacity){
 }
 
 
-
+var info_displays_can_fade false;
 var starting_tty_opacity=0.9;
 var final_tty_opacity=0.33;
 var tty_opacity=starting_tty_opacity;
