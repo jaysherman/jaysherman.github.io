@@ -751,6 +751,7 @@ function play_next() {
 		clearTTY();
 		current_time = -1;
 		total_time = -1;
+		console.log("loadSignedURL: " + videos[vid_pos]);
 		loadSignedURL(videos[vid_pos]);
 		next_movie_resume_time = 0;
 		tick_time_to_play_next = 0;
@@ -886,6 +887,7 @@ function initEverything()
 			if (my_decisecond_timer>tick_time_to_play_next){
 				displayTTY("Automatically moving to next video");
 				tick_time_to_play_next=0;
+				console.log("play_next()");
 				play_next();
 			}
 		}
