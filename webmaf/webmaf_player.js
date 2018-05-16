@@ -628,7 +628,7 @@ function set_elem_innerhtml_and_opacity(id,innerhtml,opacity){
 }
 
 
-var info_displays_can_fade false;
+var info_displays_can_fade=false;
 var starting_tty_opacity=0.9;
 var final_tty_opacity=0.33;
 var tty_opacity=starting_tty_opacity;
