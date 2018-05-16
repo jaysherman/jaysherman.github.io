@@ -743,10 +743,10 @@ function play_next() {
 		update_subtitle_languages_display("");
 		var time_since_last_play_attempt = my_decisecond_timer - play_hammer_prevention_timer;
 		play_hammer_prevention_timer = my_decisecond_timer;
-		if (time_since_last_play_attempt < 7) {
-			displayTTY("play_hammer_prevention_timer prevented play_next");
-			return;
-		}
+		// if (time_since_last_play_attempt < 7) {
+		// 	displayTTY("play_hammer_prevention_timer prevented play_next");
+		// 	return;
+		// }
 		displayTTY("playnext");
 		clearTTY();
 		current_time = -1;
@@ -879,24 +879,24 @@ var my_decisecond_timer=0;
 	
 function initEverything()
 {
-	console.log("loadSignedURL");
-	loadSignedURL(videos[0]);
+	// console.log("loadSignedURL");
+	// loadSignedURL(videos[0]);
 
 	var get_play_time_func=setInterval(function() { get_play_time() },300);
 
-	// var my_decisecond_timer=0;
-	// setInterval(function() {
-	// 	my_decisecond_timer++;
-	// 	decay_tty_opacity();
-	// 	if (tick_time_to_play_next){
-	// 		if (my_decisecond_timer>tick_time_to_play_next){
-	// 			displayTTY("Automatically moving to next video");
-	// 			tick_time_to_play_next=0;
-	// 			console.log("play_next()");
-	// 			play_next();
-	// 		}
-	// 	}
-	// },100);
+	var my_decisecond_timer=0;
+	setInterval(function() {
+		my_decisecond_timer++;
+		decay_tty_opacity();
+		if (tick_time_to_play_next){
+			if (my_decisecond_timer>tick_time_to_play_next){
+				displayTTY("Automatically moving to next video");
+				tick_time_to_play_next=0;
+				console.log("play_next()");
+				play_next();
+			}
+		}
+	},100);
 }
 
 function get_play_time() {
