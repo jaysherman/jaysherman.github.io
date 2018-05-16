@@ -459,10 +459,10 @@ function reset_subtitles(){
 
 function accessfunction(json) {
 	if (json.indexOf('getPlaybackTime')==-1){
-		displayTTY(json);
+		console.log(json);
 	}
 	var add_to_tty=false;
-	displayTTY(json);
+	// displayTTY(json);
 
 	var data=JSON.parse(json);
 	switch(data.command) {
