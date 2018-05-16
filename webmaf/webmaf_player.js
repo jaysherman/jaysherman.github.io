@@ -877,12 +877,13 @@ buildVideoList();
 
 function initEverything()
 {
+	var my_decisecond_timer=0;
 	console.log("play_next()");
 	play_next();
 
 	var get_play_time_func=setInterval(function() { get_play_time() },300);
 
-	var my_decisecond_timer=0;
+	// var my_decisecond_timer=0;
 	// setInterval(function() {
 	// 	my_decisecond_timer++;
 	// 	decay_tty_opacity();
