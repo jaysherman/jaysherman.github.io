@@ -879,8 +879,8 @@ var my_decisecond_timer=0;
 	
 function initEverything()
 {
-	console.log("play_next()");
-	play_next();
+	console.log("loadSignedURL");
+	loadSignedURL(videos[0]);
 
 	var get_play_time_func=setInterval(function() { get_play_time() },300);
 
