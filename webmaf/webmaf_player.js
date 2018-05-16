@@ -877,21 +877,24 @@ buildVideoList();
 
 function initEverything()
 {
+	console.log("play_next()");
+	play_next();
+
 	var get_play_time_func=setInterval(function() { get_play_time() },300);
 
-	var my_decisecond_timer=0;
-	setInterval(function() {
-		my_decisecond_timer++;
-		decay_tty_opacity();
-		if (tick_time_to_play_next){
-			if (my_decisecond_timer>tick_time_to_play_next){
-				displayTTY("Automatically moving to next video");
-				tick_time_to_play_next=0;
-				console.log("play_next()");
-				play_next();
-			}
-		}
-	},100);
+	// var my_decisecond_timer=0;
+	// setInterval(function() {
+	// 	my_decisecond_timer++;
+	// 	decay_tty_opacity();
+	// 	if (tick_time_to_play_next){
+	// 		if (my_decisecond_timer>tick_time_to_play_next){
+	// 			displayTTY("Automatically moving to next video");
+	// 			tick_time_to_play_next=0;
+	// 			console.log("play_next()");
+	// 			play_next();
+	// 		}
+	// 	}
+	// },100);
 }
 
 function get_play_time() {
