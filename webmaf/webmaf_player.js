@@ -39,10 +39,10 @@ function buildVideoList()
 				{
 					videos.push(dbs_episode_videos[j].id);
 				}
-				console.log("initEverything()");
-				//play the first video
-				initEverything();
 			}
+			console.log("initEverything()");
+			//play the first video
+			initEverything();
 		}
 	}
 	xobj.send(null);
