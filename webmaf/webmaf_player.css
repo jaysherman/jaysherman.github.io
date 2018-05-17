@@ -1,3 +1,19 @@
 body {
   line-height: 1.2;
+  background-color: #000000;
 }
+
+.login { 
+	height:110px;
+	width:190px;
+	margin:auto;
+	border:1px #CCC solid;
+	padding:10px;
+	position: relative;
+	top: 50px;
+}
+
+.login input { 
+	padding:5px;
+	margin:5px
+ }
