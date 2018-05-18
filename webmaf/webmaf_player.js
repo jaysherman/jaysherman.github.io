@@ -337,12 +337,17 @@ function videometrics_update() {
 //callbacks
 videometrics.onError=function(error,errorStr) {
 	videometrics_data_last_error=errorStr;
+	displayTTY("ERROR CODE: " + error);
+	displayTTY("ERROR MSG: " + errorStr);
 };
 videometrics.onStateChange=function(state) {
 	videometrics_data_state=state;
 };
 videometrics.onBitrateChange=function(bitrate) {
+	var last_bitrate = videometrics_data_bitrate;
 	videometrics_data_bitrate=bitrate;
+	displayTTY("BITRATE CHANGE - FROM: " + last_bitrate + " - TO: "+videometrics_data_bitrate);
+
 };
 //  videometrics.onOpen=function() {
 //  };
@@ -489,6 +494,7 @@ function accessfunction(json) {
 		switch(data.playerState){
 			case "buffering":
 			displayTTY("BUFFERING");
+			displayBufferInfo();
 			break;
 			case "ready":
 			displayTTY("TESTING AUTO RESUME1 next_movie_resume_time="+next_movie_resume_time);
@@ -897,6 +903,26 @@ function initEverything()
 	// 		}
 	// 	}
 	// },100);
+}
+
+function displayBufferInfo()
+{
+	var playlist_url = videometrics.url.split('?')[0];
+	var playlist_url_chunks = videometrics.url.split('/');
+	
+	displayTTY("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	displayTTY("Buffer info:");
+	displayTTY("-");
+	displayTTY("source: "+ playlist_url_chunks[0]);
+	displayTTY("playlist: "+ playlist_url_chunks[playlist_url_chunks.length-1]);
+	displayTTY("-");
+	displayTTY("current bandwidth: "+ videometrics.bandwith);
+	displayTTY("-");
+	displayTTY("representations count: " + webmaf_api_entry('{"command":"getRepresentationsCount"}');
+	displayTTY("representation bitrate: " + webmaf_api_entry('{"command":"getBitrate"}');
+	displayTTY("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	
+
 }
 
 function get_play_time() {
