@@ -281,6 +281,7 @@ function displayTTY(_tty) {
 	} else {
 		tty[0]=_tty.substring(0,100);
 	}
+	console.log(_tty)
 }
 WM_videoPlayer.TTY=displayTTY;
 WM_videoPlayer.TTYLevel=3;
