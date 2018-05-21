@@ -918,8 +918,6 @@ function displayBufferInfo()
 	displayTTY("playlist: "+ playlist_url_chunks[playlist_url_chunks.length-1]);
 	displayTTY("-");
 	displayTTY("current bandwidth: "+ videometrics.bandwith);
-	displayTTY("-");
-	displayTTY("representations count: " + webmaf_api_entry('{"command":"getRepresentationsCount"}');
 	displayTTY("representation bitrate: " + webmaf_api_entry('{"command":"getBitrate"}');
 	displayTTY("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 	
