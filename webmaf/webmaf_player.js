@@ -40,7 +40,7 @@ function buildVideoList()
 					videos.push(dbs_episode_videos[j].id);
 				}
 			}
-			console.log("initEverything()");
+			// console.log("initEverything()");
 			//play the first video
 			initEverything();
 		}
@@ -68,10 +68,10 @@ function loadSignedURL(video_id)
 		
 		}else
 		{
-			console.log("error: " + this.responseText);
+			// console.log("error: " + this.responseText);
 		}
 	}
-	console.log("http.send("+url+")");
+	// console.log("http.send("+url+")");
 				
 	http.send(null);
 }
@@ -105,7 +105,7 @@ var available_subtitle_tracks=[];
 function webmaf_api_entry(command,dont_echo_to_debug_tty){
 	window.external.user(command);
 	if (typeof dont_echo_to_debug_tty=='undefined'){
-		console.log(command);
+		// console.log(command);
 		displayTTY("--> WebMAF API:"+command);
 	}
 }
@@ -208,7 +208,7 @@ function animate_video_portal(){
 	var rby=-1.0+0.49*(1.0+Math.cos(video_animation_t*p3+Math.PI*(1.0-p3)));
 	video_animation_t=video_animation_t+0.02;
 	video_API_set_video_portal(ltx,lty,rbx,rby);
-	console.log(ltx,lty,rbx,rby);
+	// console.log(ltx,lty,rbx,rby);
 }
 
 function toggle_video_size_to_demostrate_setVideoPortalSize(){
@@ -471,7 +471,7 @@ function reset_subtitles(){
 
 function accessfunction(json) {
 	if (json.indexOf('getPlaybackTime')==-1){
-		console.log(json);
+		// console.log(json);
 	}
 	var add_to_tty=false;
 	// displayTTY(json);
@@ -758,7 +758,7 @@ function play_next() {
 		clearTTY();
 		current_time = -1;
 		total_time = -1;
-		console.log("loadSignedURL: " + videos[vid_pos]);
+		// console.log("loadSignedURL: " + videos[vid_pos]);
 		loadSignedURL(videos[vid_pos]);
 		next_movie_resume_time = 0;
 		tick_time_to_play_next = 0;
@@ -785,7 +785,7 @@ Commands=function() {
 	tThis=this;
 
 	this.handleKeyDown=function(e){
-		console.log(e.keyCode+" DOWN");
+		// console.log(e.keyCode+" DOWN");
 
 		switch(e.keyCode) {
       case 13:  // X
@@ -863,7 +863,7 @@ Commands=function() {
   }
 }
 this.handleKeyUp=function(e) {
-	console.log(e.keyCode+" UP");
+	// console.log(e.keyCode+" UP");
 	switch(e.keyCode) {
       case 8:   // O
       O_is_pressed=false;
