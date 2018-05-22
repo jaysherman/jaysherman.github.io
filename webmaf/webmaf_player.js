@@ -56,30 +56,30 @@ function loadSignedURL(video_id)
 	displayTTY("m3u8: " + m3u8);
 	video_API_load(m3u8,"","",8);
 
-	var http = new XMLHttpRequest();
-	// var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
-	http.open("GET", url, true);
-	http.setRequestHeader("devicetype", devicetype);
-	http.setRequestHeader("Authorization", "Token " + token);
+	// var http = new XMLHttpRequest();
+	// // var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
+	// http.open("GET", url, true);
+	// http.setRequestHeader("devicetype", devicetype);
+	// http.setRequestHeader("Authorization", "Token " + token);
 
-	http.onreadystatechange = function()
-	{
-		if(http.readyState == 4 && http.status == 200) {
+	// http.onreadystatechange = function()
+	// {
+	// 	if(http.readyState == 4 && http.status == 200) {
 
-			var response = JSON.parse(this.responseText);
-			var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
-			var m3u8 = filtered_json[0].src;
-			displayTTY("m3u8: " + m3u8);
-			video_API_load(m3u8,"","",8);
+	// 		var response = JSON.parse(this.responseText);
+	// 		var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
+	// 		var m3u8 = filtered_json[0].src;
+	// 		displayTTY("m3u8: " + m3u8);
+	// 		video_API_load(m3u8,"","",8);
 		
-		}else
-		{
-			// console.log("error: " + this.responseText);
-		}
-	}
-	// console.log("http.send("+url+")");
+	// 	}else
+	// 	{
+	// 		// console.log("error: " + this.responseText);
+	// 	}
+	// }
+	// // console.log("http.send("+url+")");
 				
-	http.send(null);
+	// http.send(null);
 }
 
 function find_in_object(my_object, my_criteria){
