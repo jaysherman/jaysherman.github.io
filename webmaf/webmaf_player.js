@@ -6,7 +6,7 @@
 
 var token = window.location.href.slice( window.location.href.indexOf( '?' ) + 1 );
 var devicetype = "iOS Phone";
-var videos = ["/playlists/master.m3u"];
+var videos = ["http://jaysherman.github.io/webmaf/playlists/master.m3u"];
 
 var action = "video";	//values are 'video' (to play video) and 'HTTPGET' (to get the streaming file)
 
