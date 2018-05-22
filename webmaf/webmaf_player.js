@@ -6,7 +6,7 @@
 
 var token = window.location.href.slice( window.location.href.indexOf( '?' ) + 1 );
 var devicetype = "iOS Phone";
-var videos = [];
+var videos = ["/playlists/master.m3u"];
 
 var action = "video";	//values are 'video' (to play video) and 'HTTPGET' (to get the streaming file)
 
@@ -24,34 +24,40 @@ var video_type_FileTS             = 9;  ///> MPEG2 Transport Stream file (can be
 //build a list of video IDs for Season 1 of DBS
 function buildVideoList()
 {
-	var xobj = new XMLHttpRequest();
-	xobj.overrideMimeType("application/json");
-	xobj.open('GET', '183045.json', true);
-	xobj.onreadystatechange = function() {
-		if (xobj.readyState == 4 && xobj.status == "200") {
+	initEverything();
 
-			var response = JSON.parse(xobj.responseText);
-			var dbs_episodes = response.items[0].children;
-			for(i=0;i<dbs_episodes.length;i++)
-			{
-				var dbs_episode_videos = dbs_episodes[i].media;
-				for(j=0;j<dbs_episode_videos.length;j++)
-				{
-					videos.push(dbs_episode_videos[j].id);
-				}
-			}
-			// console.log("initEverything()");
-			//play the first video
-			initEverything();
-		}
-	}
-	xobj.send(null);
+	// var xobj = new XMLHttpRequest();
+	// xobj.overrideMimeType("application/json");
+	// xobj.open('GET', '183045.json', true);
+	// xobj.onreadystatechange = function() {
+	// 	if (xobj.readyState == 4 && xobj.status == "200") {
+
+	// 		var response = JSON.parse(xobj.responseText);
+	// 		var dbs_episodes = response.items[0].children;
+	// 		for(i=0;i<dbs_episodes.length;i++)
+	// 		{
+	// 			var dbs_episode_videos = dbs_episodes[i].media;
+	// 			for(j=0;j<dbs_episode_videos.length;j++)
+	// 			{
+	// 				videos.push(dbs_episode_videos[j].id);
+	// 			}
+	// 		}
+	// 		// console.log("initEverything()");
+	// 		//play the first video
+	// 		initEverything();
+	// 	}
+	// }
+	// xobj.send(null);
 }
 
 function loadSignedURL(video_id)
 {
+	var m3u8 = videos[0];
+	displayTTY("m3u8: " + m3u8);
+	video_API_load(m3u8,"","",8);
+
 	var http = new XMLHttpRequest();
-	var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
+	// var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
 	http.open("GET", url, true);
 	http.setRequestHeader("devicetype", devicetype);
 	http.setRequestHeader("Authorization", "Token " + token);
