@@ -6,7 +6,8 @@
 
 var token = window.location.href.slice( window.location.href.indexOf( '?' ) + 1 );
 var devicetype = "iOS Phone";
-var videos = ["https://jaysherman.github.io/webmaf/playlists/master.m3u"];
+// var videos = ["https://jaysherman.github.io/webmaf/playlists/master.m3u"];
+var videos = []
 
 var action = "video";	//values are 'video' (to play video) and 'HTTPGET' (to get the streaming file)
 
@@ -26,60 +27,60 @@ function buildVideoList()
 {
 	initEverything();
 
-	// var xobj = new XMLHttpRequest();
-	// xobj.overrideMimeType("application/json");
-	// xobj.open('GET', '183045.json', true);
-	// xobj.onreadystatechange = function() {
-	// 	if (xobj.readyState == 4 && xobj.status == "200") {
+	var xobj = new XMLHttpRequest();
+	xobj.overrideMimeType("application/json");
+	xobj.open('GET', '183045.json', true);
+	xobj.onreadystatechange = function() {
+		if (xobj.readyState == 4 && xobj.status == "200") {
 
-	// 		var response = JSON.parse(xobj.responseText);
-	// 		var dbs_episodes = response.items[0].children;
-	// 		for(i=0;i<dbs_episodes.length;i++)
-	// 		{
-	// 			var dbs_episode_videos = dbs_episodes[i].media;
-	// 			for(j=0;j<dbs_episode_videos.length;j++)
-	// 			{
-	// 				videos.push(dbs_episode_videos[j].id);
-	// 			}
-	// 		}
-	// 		// console.log("initEverything()");
-	// 		//play the first video
-	// 		initEverything();
-	// 	}
-	// }
-	// xobj.send(null);
+			var response = JSON.parse(xobj.responseText);
+			var dbs_episodes = response.items[0].children;
+			for(i=0;i<dbs_episodes.length;i++)
+			{
+				var dbs_episode_videos = dbs_episodes[i].media;
+				for(j=0;j<dbs_episode_videos.length;j++)
+				{
+					videos.push(dbs_episode_videos[j].id);
+				}
+			}
+			// console.log("initEverything()");
+			//play the first video
+			initEverything();
+		}
+	}
+	xobj.send(null);
 }
 
 function loadSignedURL(video_id)
 {
-	var m3u8 = videos[0];
-	displayTTY("m3u8: " + m3u8);
-	video_API_load(m3u8,"","",8);
+	// var m3u8 = videos[0];
+	// displayTTY("m3u8: " + m3u8);
+	// video_API_load(m3u8,"","",8);
 
-	// var http = new XMLHttpRequest();
-	// // var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
-	// http.open("GET", url, true);
-	// http.setRequestHeader("devicetype", devicetype);
-	// http.setRequestHeader("Authorization", "Token " + token);
+	var http = new XMLHttpRequest();
+	var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
+	http.open("GET", url, true);
+	http.setRequestHeader("devicetype", devicetype);
+	http.setRequestHeader("Authorization", "Token " + token);
 
-	// http.onreadystatechange = function()
-	// {
-	// 	if(http.readyState == 4 && http.status == 200) {
+	http.onreadystatechange = function()
+	{
+		if(http.readyState == 4 && http.status == 200) {
 
-	// 		var response = JSON.parse(this.responseText);
-	// 		var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
-	// 		var m3u8 = filtered_json[0].src;
-	// 		displayTTY("m3u8: " + m3u8);
-	// 		video_API_load(m3u8,"","",8);
+			var response = JSON.parse(this.responseText);
+			var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
+			var m3u8 = filtered_json[0].src;
+			displayTTY("m3u8: " + m3u8);
+			video_API_load(m3u8,"","",8);
 		
-	// 	}else
-	// 	{
-	// 		// console.log("error: " + this.responseText);
-	// 	}
-	// }
-	// // console.log("http.send("+url+")");
+		}else
+		{
+			// console.log("error: " + this.responseText);
+		}
+	}
+	// console.log("http.send("+url+")");
 				
-	// http.send(null);
+	http.send(null);
 }
 
 function find_in_object(my_object, my_criteria){
