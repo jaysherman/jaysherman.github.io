@@ -62,7 +62,7 @@ function loadSignedURL(video_id)
 	http.open("GET", url, true);
 	http.setRequestHeader("devicetype", devicetype);
 	http.setRequestHeader("Authorization", "Token " + token);
-
+	http.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z9005) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 like Android 4.1; Mobile Safari/537.3");
 	http.onreadystatechange = function()
 	{
 		if(http.readyState == 4 && http.status == 200) {
@@ -290,6 +290,10 @@ function displayTTY(_tty) {
 	}
 	console.log(_tty)
 }
+// var WM_videoPlayer = {};
+// var WM_devSettings = {};
+// var videometrics = {};
+
 WM_videoPlayer.TTY=displayTTY;
 WM_videoPlayer.TTYLevel=3;
 
