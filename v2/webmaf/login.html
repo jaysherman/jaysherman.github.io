@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" href="webmaf_player.css" />
+</head>
+<body>
+
+	<div class="login">
+		<input type="text" id="email" value="roku_test01@sony.com" placeholder="email" id="email">  
+		<input type="password" id="password" value="P@ssw0rd#321!"placeholder="password" id="password">  
+		<button type="button" onclick="postLogin()">Sign In</button>
+	</div>
+
+	<script>
+		function postLogin() 
+		{
+			var http = new XMLHttpRequest();
+			var url = "https://prod-api-funimationnow.dadcdigital.com/api/auth/login/";
+			var email = document.getElementById("email").value;
+			var password = document.getElementById("password").value;
+			var xstr = "email="+email+"&password="+password;
+
+			http.open("POST", url, true);
+			http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+			http.onreadystatechange = function()
+			{
+				if(http.readyState == 4 && http.status == 200) {
+					var response = JSON.parse(this.responseText);
+					window.location.href = "WebMAF_web_application_sample.html?" + response.token;
+				} 	
+			}
+			http.send(xstr);
+		}
+</script>
+
+</body>
+</html>

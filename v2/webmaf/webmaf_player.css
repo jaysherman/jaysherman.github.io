@@ -1,0 +1,81 @@
+body {
+	line-height:1.2;
+}
+
+.login { 
+	height:110px;
+	width:190px;
+	margin:auto;
+	border:1px #CCC solid;
+	padding:10px;
+	position:relative;
+	top: 50px;
+}
+
+.login input { 
+	padding:5px;
+	margin:5px
+}
+
+p {
+	color:white;
+}
+
+#player_info {
+	position:fixed;
+	top:5%;
+	left:5%;
+	font-size:small;
+	opacity:0.8;
+	background-color:#202020;
+}
+
+#track_time_display {
+	position:fixed;
+	top:20%;
+	left:5%;
+	font-size:small;
+	opacity:0.8;
+	background-color:#202020;
+	color:#FFFFFF;
+	text-align:left;
+}
+
+#memory_info {
+	 position:fixed;
+	 bottom:2%;
+	 left:13%;font-size:x-small;
+	 background-color:#202020;
+	 color:#FFFFFF;
+}
+
+#videoTTY {
+	font-size:xx-small;
+	position:fixed;
+	bottom:14%;
+	left:50%;
+	width:44%;
+	background-color:#404040;
+	color:#FFFFFF;
+	text-align:left;
+}
+
+#videometrics_key {
+	font-size:xx-small;
+	position:fixed;
+	bottom:14%;
+	left:6%;
+	width:9%;
+	background-color:#404040;
+	color:#FFFFFF;
+}
+
+#videometrics {
+	font-size:xx-small;
+	position:fixed;
+	bottom:14%;
+	left:15%;
+	width:30%;
+	background-color:#404040;
+	color:#FFFFFF;
+}
