@@ -25,24 +25,26 @@ var video_type_FileTS             = 9;  ///> MPEG2 Transport Stream file (can be
 //build a list of video IDs for Season 1 of DBS
 function buildVideoList()
 {
-	initEverything();
+	// initEverything();
 
 	var xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
-	xobj.open('GET', '183045.json', true);
+	//xobj.open('GET', '183045.json', true);
+	xobj.open('GET', 'signed_urls.json', true);
 	xobj.onreadystatechange = function() {
 		if (xobj.readyState == 4 && xobj.status == "200") {
 
 			var response = JSON.parse(xobj.responseText);
-			var dbs_episodes = response.items[0].children;
-			for(i=0;i<dbs_episodes.length;i++)
-			{
-				var dbs_episode_videos = dbs_episodes[i].media;
-				for(j=0;j<dbs_episode_videos.length;j++)
-				{
-					videos.push(dbs_episode_videos[j].id);
-				}
-			}
+			// var dbs_episodes = response.items[0].children;
+			// for(i=0;i<dbs_episodes.length;i++)
+			// {
+			// 	var dbs_episode_videos = dbs_episodes[i].media;
+			// 	for(j=0;j<dbs_episode_videos.length;j++)
+			// 	{
+			// 		videos.push(dbs_episode_videos[j].id);
+			// 	}
+			// }
+			videos = response.items;
 			// console.log("initEverything()");
 			//play the first video
 			initEverything();
@@ -51,36 +53,38 @@ function buildVideoList()
 	xobj.send(null);
 }
 
-function loadSignedURL(video_id)
+function loadSignedURL(url)
 {
 	// var m3u8 = videos[0];
 	// displayTTY("m3u8: " + m3u8);
 	// video_API_load(m3u8,"","",8);
+	displayTTY("m3u8: " + url);
+	video_API_load(url,"","",8);
+	
+	// var http = new XMLHttpRequest();
+	// var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
+	// http.open("GET", url, true);
+	// http.setRequestHeader("devicetype", devicetype);
+	// http.setRequestHeader("Authorization", "Token " + token);
+	// //http.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z9005) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 like Android 4.1; Mobile Safari/537.3");
+	// http.onreadystatechange = function()
+	// {
+	// 	if(http.readyState == 4 && http.status == 200) {
 
-	var http = new XMLHttpRequest();
-	var url = "https://prod-api-funimationnow.dadcdigital.com/api/source/catalog/video/"+video_id+"/signed/";
-	http.open("GET", url, true);
-	http.setRequestHeader("devicetype", devicetype);
-	http.setRequestHeader("Authorization", "Token " + token);
-	http.setRequestHeader("User-Agent", "Mozilla/5.0 (Linux; Tizen 2.2; SAMSUNG SM-Z9005) AppleWebKit/537.3 (KHTML, like Gecko) Version/2.2 like Android 4.1; Mobile Safari/537.3");
-	http.onreadystatechange = function()
-	{
-		if(http.readyState == 4 && http.status == 200) {
-
-			var response = JSON.parse(this.responseText);
-			var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
-			var m3u8 = filtered_json[0].src;
-			displayTTY("m3u8: " + m3u8);
-			video_API_load(m3u8,"","",8);
+	// 		var response = JSON.parse(this.responseText);
+	// 		var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
+	// 		var m3u8 = filtered_json[0].src;
+	// 		displayTTY("m3u8: " + m3u8);
+	// 		video_API_load(m3u8,"","",8);
 		
-		}else
-		{
-			// console.log("error: " + this.responseText);
-		}
-	}
-	// console.log("http.send("+url+")");
+	// 	}else
+	// 	{
+	// 		// console.log("error: " + this.responseText);
+	// 	}
+	// }
+	// // console.log("http.send("+url+")");
 				
-	http.send(null);
+	// http.send(null);
 }
 
 function find_in_object(my_object, my_criteria){
