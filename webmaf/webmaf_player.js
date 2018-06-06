@@ -893,6 +893,8 @@ var my_decisecond_timer=0;
 	
 function initEverything()
 {
+	webmaf_api_entry('{"command":"setAdaptiveStreamingParameters","bandwidthHistoryMaxEntries":3}');
+	
 	loadSignedURL(videos[0]);
 	vid_pos++;
 	  
