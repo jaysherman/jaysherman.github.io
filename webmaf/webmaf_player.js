@@ -69,7 +69,7 @@ function loadSignedURL(video_id)
 
 			var response = JSON.parse(this.responseText);
 			var filtered_json = find_in_object(response.items, {videoType: 'm3u8'});
-			var m3u8 = filtered_json[0].src;
+			var m3u8 = filtered_json[0].src.replace("https", "http");
 			displayTTY("m3u8: " + m3u8);
 			video_API_load(m3u8,"","",8);
 		
