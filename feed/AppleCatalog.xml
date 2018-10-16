@@ -1,0 +1,1454 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<umcCatalog version="3.0" teamId="BoomiAppleTestId" catalogId="com.ca talog.acme">
+  <totalItemCount>57</totalItemCount>
+  <lastBuildDate>2018-10-03T07:30:56.000</lastBuildDate>
+  <title>Funimation Video Catalog</title>
+  <description>Funimation Video Catalog</description>
+  <defaultLocale>en-US</defaultLocale>
+  <item contentType="movie" contentId="503507">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>ZBR</contentGroupId>
+    <title>Zebraman 2</title>
+    <description>In 2025, amnesiac Shinichi Ichikawa, aka Zebraman, teams up with television's fake Zebraman and a young protégé in order to save a mysterious little girl - and the world - from the fascist Zebra Queen and her violent Zebra Police.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Live-Action</genre>
+    <rating systemCode="zw-movies">12</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfstg/image/upload/oth/FunimationStoreFront/1368381/English/1368381_English_KeyArt-OfficialVideoImage_468e9f32-64ad-e811-816d-06daae1a73b9.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <movieInfo>
+      <type>feature</type>
+      <duration>1:53:04</duration>
+      <version>standard</version>
+      <productionCountry>US</productionCountry>
+    </movieInfo>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+  </item>
+  <item contentType="movie" contentId="72605">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>ZBR</contentGroupId>
+    <title>Zebraman 2</title>
+    <description>In 2025, amnesiac Shinichi Ichikawa, aka Zebraman, teams up with television's fake Zebraman and a young protégé in order to save a mysterious little girl - and the world - from the fascist Zebra Queen and her violent Zebra Police.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Live-Action</genre>
+    <rating systemCode="zw-movies">12</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfstg/image/upload/oth/FunimationStoreFront/1368381/English/1368381_English_KeyArt-OfficialVideoImage_468e9f32-64ad-e811-816d-06daae1a73b9.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <movieInfo>
+      <type>feature</type>
+      <duration>1:53:04</duration>
+      <version>standard</version>
+      <productionCountry>US</productionCountry>
+    </movieInfo>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+  </item>
+  <item contentType="movie" contentId="255231">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>ZBR</contentGroupId>
+    <title>Zebraman 2</title>
+    <description>In 2025, amnesiac Shinichi Ichikawa, aka Zebraman, teams up with television's fake Zebraman and a young protégé in order to save a mysterious little girl - and the world - from the fascist Zebra Queen and her violent Zebra Police.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Live-Action</genre>
+    <rating systemCode="zw-movies">12</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfstg/image/upload/oth/FunimationStoreFront/1368381/English/1368381_English_KeyArt-OfficialVideoImage_468e9f32-64ad-e811-816d-06daae1a73b9.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <movieInfo>
+      <type>feature</type>
+      <duration>1:53:04</duration>
+      <version>standard</version>
+      <productionCountry>US</productionCountry>
+    </movieInfo>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+  </item>
+  <item contentType="episode" contentId="138631">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Rena's date with Yui is interrupted by a mysterious person from her past.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493767/Japanese/1493767_Japanese_KeyArt-OfficialVideoImage_a432217d-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="254080">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Rena's date with Yui is interrupted by a mysterious person from her past.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493767/Japanese/1493767_Japanese_KeyArt-OfficialVideoImage_a432217d-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="399669">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Rena's date with Yui is interrupted by a mysterious person from her past.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493767/Japanese/1493767_Japanese_KeyArt-OfficialVideoImage_a432217d-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="139577">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>As Empress, Yui is forced to choose who she will protect. More strangers appear seeking the Regalia.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493769/Japanese/1493769_Japanese_KeyArt-OfficialVideoImage_25be6889-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>2</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="440974">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>As Empress, Yui is forced to choose who she will protect. More strangers appear seeking the Regalia.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493769/Japanese/1493769_Japanese_KeyArt-OfficialVideoImage_25be6889-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>2</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="145921">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Alecto is confronted by a new potential threat. Yui visits the festival, while Rena prepares a surprise for Yui.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493771/Japanese/1493771_Japanese_KeyArt-OfficialVideoImage_3c33217d-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>3</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400619">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Alecto is confronted by a new potential threat. Yui visits the festival, while Rena prepares a surprise for Yui.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493771/Japanese/1493771_Japanese_KeyArt-OfficialVideoImage_3c33217d-9b65-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>3</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="145520">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui and Rena's relationship is tested when they encounter a visitor from Rimgarde.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493773/Japanese/1493773_Japanese_KeyArt-OfficialVideoImage_2783cf28-9187-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>4</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400622">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui and Rena's relationship is tested when they encounter a visitor from Rimgarde.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493773/Japanese/1493773_Japanese_KeyArt-OfficialVideoImage_2783cf28-9187-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>4</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="155652">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui has devised a plan to deal with the threat from Abel, and along with Rena, they must find the strength to see it through.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493775/Japanese/1493775_Japanese_KeyArt-OfficialVideoImage_d01dc36b-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="402205">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui has devised a plan to deal with the threat from Abel, and along with Rena, they must find the strength to see it through.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493775/Japanese/1493775_Japanese_KeyArt-OfficialVideoImage_d01dc36b-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="157657">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui, Rena, Tia, and Sara are summoned to another country by an unknown Regalia. Meanwhile, Johann grows restless.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493777/Japanese/1493777_Japanese_KeyArt-OfficialVideoImage_64cc7c35-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>6</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="402204">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui, Rena, Tia, and Sara are summoned to another country by an unknown Regalia. Meanwhile, Johann grows restless.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493777/Japanese/1493777_Japanese_KeyArt-OfficialVideoImage_64cc7c35-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>6</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="159161">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>The girls find themselves wandering the ruins of Rimgarde, when they suddenly come across Kei.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493779/Japanese/1493779_Japanese_KeyArt-OfficialVideoImage_9c1dc36b-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400620">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>The girls find themselves wandering the ruins of Rimgarde, when they suddenly come across Kei.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493779/Japanese/1493779_Japanese_KeyArt-OfficialVideoImage_9c1dc36b-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="165222">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Johann forces a showdown while Tia and Rena leave their Regalia to search for Kei.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493781/Japanese/1493781_Japanese_KeyArt-OfficialVideoImage_dc13c1b9-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>8</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="402214">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Johann forces a showdown while Tia and Rena leave their Regalia to search for Kei.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493781/Japanese/1493781_Japanese_KeyArt-OfficialVideoImage_dc13c1b9-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>8</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="169753">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Ingrid takes up temporary residence with Yui, giving them a chance to talk about the time Ingrid met Yui's mother.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493783/Japanese/1493783_Japanese_KeyArt-OfficialVideoImage_e430d2ad-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>9</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400621">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Ingrid takes up temporary residence with Yui, giving them a chance to talk about the time Ingrid met Yui's mother.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493783/Japanese/1493783_Japanese_KeyArt-OfficialVideoImage_e430d2ad-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>9</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="183085">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Tia and Sara discover someone from their past amongst Johann's dolls. Later, Yui proposes a bold plan of action!</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493785/Japanese/1493785_Japanese_KeyArt-OfficialVideoImage_ecb7894d-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>10</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400612">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Tia and Sara discover someone from their past amongst Johann's dolls. Later, Yui proposes a bold plan of action!</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493785/Japanese/1493785_Japanese_KeyArt-OfficialVideoImage_ecb7894d-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>10</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="186487">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Rena and Yui are reunited, while Sara, Tia, Kei, and Ingrid fight off Johann's Regalia Gear.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493787/Japanese/1493787_Japanese_KeyArt-OfficialVideoImage_ba60cd53-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>11</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="402225">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Rena and Yui are reunited, while Sara, Tia, Kei, and Ingrid fight off Johann's Regalia Gear.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493787/Japanese/1493787_Japanese_KeyArt-OfficialVideoImage_ba60cd53-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>11</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="202411">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Ingrid, Kei, Tia, and Sara continue to fight, managing to free Noa. Will Yui and Rena return in time?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493789/Japanese/1493789_Japanese_KeyArt-OfficialVideoImage_6583cf28-9187-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>12</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="441009">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Ingrid, Kei, Tia, and Sara continue to fight, managing to free Noa. Will Yui and Rena return in time?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493789/Japanese/1493789_Japanese_KeyArt-OfficialVideoImage_6583cf28-9187-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>12</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="208987">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui and all of her friends face off with Johann for a decisive battle.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493791/Japanese/1493791_Japanese_KeyArt-OfficialVideoImage_7deecab3-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>13</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="400631">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>REG</contentGroupId>
+    <title>Regalia: The Three Sacred Stars</title>
+    <description>Yui and all of her friends face off with Johann for a decisive battle.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Sci Fi</genre>
+    <rating systemCode="zw-movies">15</rating>
+    <rating systemCode="CBSC">14</rating>
+    <rating systemCode="TV-US">14</rating>
+    <rating systemCode="RTE">PS</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1493791/Japanese/1493791_Japanese_KeyArt-OfficialVideoImage_7deecab3-7a63-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:00</duration>
+      <showContentId>REG</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>13</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="168483">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>On his birthday, the young Avilio's happy life comes to a sudden end with the death of both of his parents. Seven years later, he receives a mysterious letter that spurs him to return to Lawless, where he reunites with his childhood friend Corteo.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555250/English/1555250_English_KeyArt-OfficialVideoImage_d9499ab8-14ad-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="254642">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>On his birthday, the young Avilio's happy life comes to a sudden end with the death of both of his parents. Seven years later, he receives a mysterious letter that spurs him to return to Lawless, where he reunites with his childhood friend Corteo.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555250/English/1555250_English_KeyArt-OfficialVideoImage_d9499ab8-14ad-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="409338">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>On his birthday, the young Avilio's happy life comes to a sudden end with the death of both of his parents. Seven years later, he receives a mysterious letter that spurs him to return to Lawless, where he reunites with his childhood friend Corteo.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555250/English/1555250_English_KeyArt-OfficialVideoImage_d9499ab8-14ad-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>1</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="169929">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Don Vanetti's mansion is hosting a wedding between the Don's daughter Fio and a man named Ronaldo. But behind the scenes of this grand party, the family feels uneasy.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1668308/English/1668308_English_KeyArt-OfficialVideoImage_fd434654-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>2</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403757">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Don Vanetti's mansion is hosting a wedding between the Don's daughter Fio and a man named Ronaldo. But behind the scenes of this grand party, the family feels uneasy.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1668308/English/1668308_English_KeyArt-OfficialVideoImage_fd434654-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>2</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="185701">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Avilio has taken the first step towards his revenge. But Serpente's body has disappeared, casting suspicion on Avilio. Nero orders him to bring back Serpente's body at gunpoint. Meanwhile, Fango is also looking for Serpente.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668309/English/1668309_English_KeyArt-OfficialVideoImage_2541600c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>3</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403732">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Avilio has taken the first step towards his revenge. But Serpente's body has disappeared, casting suspicion on Avilio. Nero orders him to bring back Serpente's body at gunpoint. Meanwhile, Fango is also looking for Serpente.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668309/English/1668309_English_KeyArt-OfficialVideoImage_2541600c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>3</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="190188">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>After the incident with Vanno and Serpente, a war between the Vanetti and Orco families is all but guaranteed. Nero goes on the run with Avilio, where the two learn a great deal about each other's personality and past.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555256/English/1555256_English_KeyArt-OfficialVideoImage_442da720-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>4</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403730">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>After the incident with Vanno and Serpente, a war between the Vanetti and Orco families is all but guaranteed. Nero goes on the run with Avilio, where the two learn a great deal about each other's personality and past.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555256/English/1555256_English_KeyArt-OfficialVideoImage_442da720-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>4</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="203887">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Avilio and Nero shake off the Orco family's assassin and continue to lie low, until Nero's regular call to Barbero reveals a new development in the conflict: Orco wants peace with the Vanetti family.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1668311/English/1668311_English_KeyArt-OfficialVideoImage_2f387918-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403714">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Avilio and Nero shake off the Orco family's assassin and continue to lie low, until Nero's regular call to Barbero reveals a new development in the conflict: Orco wants peace with the Vanetti family.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://derf9v1xhwwx1.cloudfront.net/image/upload/oth/FunimationStoreFront/1668311/English/1668311_English_KeyArt-OfficialVideoImage_2f387918-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="208660">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Frate's betrayal has left Nero on the run with the Vanetti family in pursuit. To save the badly injured Tigre, Nero seeks the aid of Fango, who is currently holed up on the Island. In exchange for his help, Nero agrees to bring Don Orco to Fango alive.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668312/English/1668312_English_KeyArt-OfficialVideoImage_c1fa5f36-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>6</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403727">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Frate's betrayal has left Nero on the run with the Vanetti family in pursuit. To save the badly injured Tigre, Nero seeks the aid of Fango, who is currently holed up on the Island. In exchange for his help, Nero agrees to bring Don Orco to Fango alive.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668312/English/1668312_English_KeyArt-OfficialVideoImage_c1fa5f36-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>6</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209848">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>The Fango family has taken the place of the Orco family. Fango is grateful to Nero and Avilio for their hard work, and asks them to continue to work with him. It's then that Frate declares war on his brother.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668313/English/1668313_English_KeyArt-OfficialVideoImage_58115a3c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403720">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>The Fango family has taken the place of the Orco family. Fango is grateful to Nero and Avilio for their hard work, and asks them to continue to work with him. It's then that Frate declares war on his brother.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668313/English/1668313_English_KeyArt-OfficialVideoImage_58115a3c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209808">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A compilation of Days 1-7.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555264/English/1555264_English_KeyArt-OfficialVideoImage_6e2da720-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7.5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="493858">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A compilation of Days 1-7.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555264/English/1555264_English_KeyArt-OfficialVideoImage_6e2da720-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>7.5</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209885">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A hard-nosed prohibition agent, Delphy, is installed in Lawless. He claims he will cut out the mafia's power in the city, and begins clamping down on bars. Naturally, the Vanetti family considers him an unwelcome presence.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668314/English/1668314_English_KeyArt-OfficialVideoImage_4e444654-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>8</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403704">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A hard-nosed prohibition agent, Delphy, is installed in Lawless. He claims he will cut out the mafia's power in the city, and begins clamping down on bars. Naturally, the Vanetti family considers him an unwelcome presence.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668314/English/1668314_English_KeyArt-OfficialVideoImage_4e444654-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>8</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209881">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>The identity of the traitor who leaked information to Fango and tried to kill Nero has been revealed. With Corteo taken into custody, the Vanetti family has been thrown into an uproar. But he refuses to confess, a fact that will likely lead to his death.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668315/English/1668315_English_KeyArt-OfficialVideoImage_1cb95142-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>9</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403733">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>The identity of the traitor who leaked information to Fango and tried to kill Nero has been revealed. With Corteo taken into custody, the Vanetti family has been thrown into an uproar. But he refuses to confess, a fact that will likely lead to his death.</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668315/English/1668315_English_KeyArt-OfficialVideoImage_1cb95142-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>9</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209930">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Having succeeded Don Vanetti, Nero decides to send a shipment of Lawless Heaven to Don Galassia to make way for the family's expansion and he assigns Avilio to the task. But where is Corteo?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668316/English/1668316_English_KeyArt-OfficialVideoImage_25115a3c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>10</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403723">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Having succeeded Don Vanetti, Nero decides to send a shipment of Lawless Heaven to Don Galassia to make way for the family's expansion and he assigns Avilio to the task. But where is Corteo?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668316/English/1668316_English_KeyArt-OfficialVideoImage_25115a3c-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>10</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209884">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Vincent's dream, the Vanetti playhouse, is now complete. Don Galassia and his nephew Strega have been invited, but the playhouse's opening the next day is wreathed in tension. And at last, the day Avilio's been waiting for has arrived...</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668317/English/1668317_English_KeyArt-OfficialVideoImage_67cb6512-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>11</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403731">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>Vincent's dream, the Vanetti playhouse, is now complete. Don Galassia and his nephew Strega have been invited, but the playhouse's opening the next day is wreathed in tension. And at last, the day Avilio's been waiting for has arrived...</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1668317/English/1668317_English_KeyArt-OfficialVideoImage_67cb6512-c98d-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>11</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="209779">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A violent gunfight erupts at the playhouse. Black smoke arises from explosions on the Island. The Vanetti family is on the brink of destruction, and Avilio has accomplished his revenge. Where does he go from here?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555274/English/1555274_English_KeyArt-OfficialVideoImage_200fa026-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>12</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+  <item contentType="episode" contentId="403742">
+    <pubDate>2018-10-03T07:30:01.000</pubDate>
+    <contentGroupId>91D</contentGroupId>
+    <title>91 Days</title>
+    <description>A violent gunfight erupts at the playhouse. Black smoke arises from explosions on the Island. The Vanetti family is on the brink of destruction, and Avilio has accomplished his revenge. Where does he go from here?</description>
+    <genre>Action/Adventure</genre>
+    <genre>Drama</genre>
+    <genre>Fantasy</genre>
+    <rating systemCode="RTE">MA</rating>
+    <rating systemCode="zw-movies">18</rating>
+    <rating systemCode="TV-US">MA</rating>
+    <rating systemCode="CBSC">18</rating>
+    <artwork>https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1555274/English/1555274_English_KeyArt-OfficialVideoImage_200fa026-6471-e711-8175-020165574d09.jpg</artwork>
+    <isOriginal>true</isOriginal>
+    <tvShowInfo>
+      <type>series</type>
+    </tvShowInfo>
+    <tvEpisodeInfo>
+      <type>standard</type>
+      <duration>24:36</duration>
+      <showContentId>91D</showContentId>
+      <seasonContentId>Season 1</seasonContentId>
+      <seasonNumber>1.0</seasonNumber>
+      <episodeNumber>12</episodeNumber>
+    </tvEpisodeInfo>
+  </item>
+</umcCatalog>
