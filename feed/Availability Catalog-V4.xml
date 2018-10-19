@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<umcAvailability version="3.0">
+  <lastBuildDate>2018-10-17T12:22:05.000</lastBuildDate>
+  <service teamId="FUN-APPLE-ID-TEST" serviceId="com.acme.service.nonlinea">
+    <serviceType>vod</serviceType>
+    <totalItemCount>56</totalItemCount>
+    <item contentType="movie" contentId="72605" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/zebraman-2/attack-on-zebra-city/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="movie" contentId="255231" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/zebraman-2/attack-on-zebra-city/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <audioDescriptions>lv</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="138631" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/sisters-2/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="254080" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/sisters-2/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>lv</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="399669" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/sisters-2/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="139577" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/declaration-2/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="440974" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/declaration-2/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="145921" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/sincerity/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400619" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/sincerity/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="145520" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/feigned-confidence/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400622" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/feigned-confidence/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="155652" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/counterattack/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="402205" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/counterattack/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="157657" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/divine-machinations/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="402204" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/divine-machinations/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="159161" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/the-past-3/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400620" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/the-past-3/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="165222" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/returning-home/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="402214" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/returning-home/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="169753" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/succession-3/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400621" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/succession-3/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="183085" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/isolation/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400612" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/isolation/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="186487" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/prison/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="402225" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/prison/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="202411" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/reclamation/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="441009" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/reclamation/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="208987" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/family-5/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>ja</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="400631" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/regalia-the-three-sacred-stars/family-5/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="168483" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/night-of-the-murder/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="254642" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/night-of-the-murder/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>lv</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="409338" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/night-of-the-murder/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="169929" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/phantom-of-falsehood/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403757" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/phantom-of-falsehood/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="185701" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/where-the-footfalls-lead/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403732" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/where-the-footfalls-lead/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="190188" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/losing-to-win-and-what-comes-after/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403730" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/losing-to-win-and-what-comes-after/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="203887" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/blood-will-have-blood/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403714" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/blood-will-have-blood/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="208660" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/to-slaughter-a-pig/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403727" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/to-slaughter-a-pig/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209848" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/a-poor-player/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403720" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/a-poor-player/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209808" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/brief-candle/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="493858" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/brief-candle/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209885" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/behind-the-curtain/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403704" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/behind-the-curtain/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209881" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/black-and-deep-desires/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403733" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/black-and-deep-desires/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209930" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/proof-of-good-faith/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403723" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/proof-of-good-faith/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209884" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/all-for-nothing/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403731" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/all-for-nothing/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="209779" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/slipping-through-the-dirty-sky/simulcast/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+    <item contentType="tv_episode" contentId="403742" catalogId="Boomi_catalog_id">
+      <pubDate>2018-10-17T12:22:05.000</pubDate>
+      <locators>
+        <locator platform="web" action="open" url="https://funimation.com//shows/91-days/slipping-through-the-dirty-sky/uncut/" />
+        <locator platform="atv" action="open" url="funi://www.funimation.com?type=screen&amp;screen=video_detail&amp;episode_slug=assassination-time&amp;title_slug=assassination-classroom&amp;version=Uncut&amp;language=English" />
+      </locators>
+      <playableProperties>
+        <subtitles>en-US</subtitles>
+        <audioDescriptions>en-US</audioDescriptions>
+        <videoQuality>hd</videoQuality>
+      </playableProperties>
+    </item>
+  </service>
+</umcAvailability>
