@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics Test Page</title>
+    <!-- Initialize Crowdskout analytics -->
+    <script>
+        (function(s,k,o,u,t){
+            s.cs=s.cs||function(){cs.q.push(arguments);};
+            cs.q=cs.q||[];cs.apiUrl=t;
+            s.sourceId=14717;  // From oregonforestsforever.com
+            s.clientId=2348;   // From oregonforestsforever.com
+            s.organizationId=1949049; // From oregonforestsforever.com
+            var a=k.getElementsByTagName(o)[0];
+            var b=k.createElement(o);
+            b.src=u+'/analytics.js';
+            a.parentNode.insertBefore(b,a);
+        })(window,document,'script','https://748voay4t4.execute-api.us-east-1.amazonaws.com/dev','https://748voay4t4.execute-api.us-east-1.amazonaws.com/dev');
+    </script>
+</head>
+<body>
+    <h1>Test Page</h1>
+    
+    <!-- Test form similar to oregonforestsforever.com -->
+    <form id="testForm">
+        <h2>Join Us Form</h2>
+        <div>
+            <label>Name</label>
+            <input type="text" placeholder="First" name="firstName">
+            <input type="text" placeholder="Last" name="lastName">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label>Zip Code</label>
+            <input type="text" name="zipCode">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // When form is viewed
+        cs('form-view', {
+            formId: 'testForm',
+            formName: 'Join Us Form'
+        });
+
+        // Handle form submission
+        document.getElementById('testForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            cs('form-submit', {
+                formId: 'testForm',
+                formName: 'Join Us Form',
+                data: {
+                    firstName: this.elements.firstName.value,
+                    lastName: this.elements.lastName.value,
+                    email: this.elements.email.value,
+                    zipCode: this.elements.zipCode.value
+                }
+            });
+        });
+    </script>
+</body>
+</html>
