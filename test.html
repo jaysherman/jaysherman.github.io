@@ -83,19 +83,21 @@
         }
     </style>
     <!-- Initialize Crowdskout analytics -->
+    <script src="//s.crowdskout.com/analytics.js"></script>
     <script>
         (function(s,k,o,u,t){
             s.cs=s.cs||function(){cs.q.push(arguments);};
             cs.q=cs.q||[];cs.apiUrl=t;
-            s.sourceId=14717;
-            s.clientId=2348;
-            s.organizationId=1949049;
+            s.sourceId=0;
+            s.clientId=0;
+            s.organizationId=0;
             var a=k.getElementsByTagName(o)[0];
             var b=k.createElement(o);
             b.src=u+'/analytics.js';
             a.parentNode.insertBefore(b,a);
-        })(window,document,'script','https://748voay4t4.execute-api.us-east-1.amazonaws.com/dev','https://748voay4t4.execute-api.us-east-1.amazonaws.com/dev');
+        })(window,document,'script','//s.crowdskout.com/','https://a.crowdskout.com');
     </script>
+    <script src="https://a.crowdskout.com/skout.js"></script>
 </head>
 <body>
     <h1>Analytics Test Page</h1>
