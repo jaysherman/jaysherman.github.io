@@ -133,16 +133,11 @@
         document.getElementById('testForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            cs('form-submit', {
-                formId: 'testForm',
-                formName: 'Join Us Form',
-                data: {
-                    firstName: this.elements.firstName.value,
-                    lastName: this.elements.lastName.value,
-                    email: this.elements.email.value,
-                    zipCode: this.elements.zipCode.value
-                }
-            });
+            // Clear all form fields
+            this.elements.firstName.value = '';
+            this.elements.lastName.value = '';
+            this.elements.email.value = '';
+            this.elements.zipCode.value = '';
         });
     </script>
 </body>
